@@ -1,4 +1,4 @@
-# bangkok-ingress
+# Bangkok Ingress
 The Unofficial Guide for Ingress players to explore Bangkok.
 This is a hobby site of mine to serve as a tour guide of sorts for travelling Ingress Players.
 
