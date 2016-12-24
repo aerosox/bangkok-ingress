@@ -1,11 +1,13 @@
-# bangkok-ingress
+# Bangkok Ingress
 The Unofficial Guide for Ingress players to explore Bangkok.
-This is a hobby site of mine to serve as a tour guide of sorts for travelling Ingress Players.
+This is a hobby site intended to serve as an informative tour guide for travelling Ingress Players.
+
+**DISCLAIMER**: I am in no way associated with Niantic, Inc. This website is created for informative purposes only; no copyright infringement is intended (if any).
 
 The site will include:
-1. Sim card buying guide
-2. UPV guide
-3. Transportation guide
-4. Others
+* Sim card buying guide
+* UPV guide
+* Transportation guide
+* Others
 
-Feel free to check it out at http://www.bkkingress.com
+Check it out [here](http://www.bkkingress.com)!
