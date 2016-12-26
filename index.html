@@ -1,15 +1,16 @@
 <DOCTYPE! html>
-<html>
-  <head>
-    <!--
-    .###. #   # #####    #   # ##### #####    #   # ##### #   # #.  # .####
-    #     ##### . # .    #.-'  . # .   #      '###' #.... #   # # '.# #  ..
-    .###. #   # #####    # ''# #####   #        #   ##### '###' #   # .###'
+<!--
+.###. #   # #####    #   # ##### #####    #   # ##### #   # #.  # .####
+#     ##### . # .    #.-'  . # .   #      '###' #.... #   # # '.# #  ..
+.###. #   # #####    # ''# #####   #        #   ##### '###' #   # .###'
 
-    Having a look around?  You can even contribute at https://github.com/chikity/bangkok-ingress
-    -->
-    <!--This site is built using Materialize CSS-->
+Having a look around?  You can even contribute at https://github.com/chikity/bangkok-ingress
+-->
+<!--This site is built using Materialize CSS-->
+<html lang="en">
+  <head>
     <title>Bangkok Ingress</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta content="The unofficial traveller's guide to Bangkok for Ingress agents">
     <!--Material CSS library-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css" />
@@ -34,7 +35,7 @@
                   <li><a href="#">UPV</a></li>
                   <li><a href="#">Sim Card</a></li>
                   <li><a href="#">Transportation</a></li>
-                  <li><a href="#">Mosaic Mission</a></li>
+                  <li><a href="#">Missions</a></li>
                 </ul>
                 <!--End of Normal Navigation-->
                 <!--Start of mobile navigation-->
@@ -43,7 +44,7 @@
                   <li><a href="#">UPV</a></li>
                   <li><a href="#">Sim Card</a></li>
                   <li><a href="#">Transportation</a></li>
-                  <li><a href="#">Mosaic Mission</a></li>
+                  <li><a href="#">Missions</a></li>
                 </ul>
                 <!--End of mobile navigation-->
             </div>
@@ -56,15 +57,32 @@
     <main>
       <!--Introduction here-->
       <div>
-        <div class="section center-align container">
-          <h2>Welcome to Bangkok</h2>
-          <h5>
-            Welcome to Bangkok, the capital city of Thailand. This intel resource page is designed to help both local and visiting agents from abroad navigate the city.
-          </h5>
-        <!--<div class="divider"></div>-->
-        </div>
-        <!--Introduction end-->
-        <div class="section grey darken-3 white-text">
+        <!-- <img class="responsive-img" src="img/stock-photo.jpg">
+          <div class="section center-align container">
+            <h2>Welcome to Bangkok</h2>
+            <h5>
+              Welcome to Bangkok, the capital city of Thailand. This intel resource page is designed to help both local and visiting agents from abroad navigate the city.
+            </h5>
+          </div> -->
+      <!-- Begin of Header Image -->
+          <div id="index-banner" class="parallax-container valign-wrapper viewport">
+            <div class="section valign">
+              <div class="container amber-text accent-4">
+              <!-- <div class="container white-text"> -->
+                <br><br>
+                <h1 class="center">Welcome to Bangkok</h1>
+                <div class="row center">
+                  <h5>
+                    Welcome to Bangkok, the capital city of Thailand. This intel resource page is designed to help both local and visiting agents from abroad navigate the city.
+                  </h5>
+                </div>
+                <br><br>
+              </div>
+            </div>
+            <div class="parallax"><img src="img/bkk_traffic.jpg"></div>
+          </div>
+        <!-- End of Header Image -->
+        <div class="section grey darken-4 white-text z-depth-3">
           <div class="container">
             <h4>What is Ingress?</h4>
             <p>
@@ -72,9 +90,9 @@
             </p>
           </div>
         </div>
+        <!--Introduction end-->
         <div class="row container">
           <h4>Information</h4>
-          <div class="divider"></div>
           <!--First Column-->
           <div class="col s12 m4">
             <div class="card">
@@ -140,10 +158,10 @@
               This intel resource page is designed to help both local and visiting agents from abroad navigate the city.
             </p>
             <p class="grey-text text-lighten-4">
-              Made by an agent, for agents.
+              Made for agents, by agents.
             </p>
           </div>
-          <div class="col l4 offset-l4 s12">
+          <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Links</h5>
               <ul>
                 <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
@@ -156,10 +174,20 @@
       </div>
       <div class="footer-copyright grey darken-4">
         <div class="container">
-          © 2017 Copyright Bangkok Ingress | This site is in no way affiliated with Niantic, Inc.
+          © 2016-2017 Copyright Bangkok Ingress | This site is in no way affiliated with Niantic, Inc.
         </div>
       </div>
     </footer>
     <!--End of footer-->
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script>
+      $( document ).ready(function() {
+        // $(".button-collapse").sideNav(console.log("button is pressed"));
+        $('.parallax').parallax();
+      });
+    </script>
   </body>
 </html>

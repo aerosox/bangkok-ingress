@@ -10,3 +10,6 @@ body {
 main {
     flex: 1 0 auto;
   }
+.viewport {
+  height: 100vh
+}
