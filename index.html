@@ -13,12 +13,12 @@ Having a look around?  You can even contribute at https://github.com/chikity/ban
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta content="The unofficial traveller's guide to Bangkok for Ingress agents">
     <!--Material CSS library-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
     <!--Matching Ingress font style-->
     <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
     <!--Icon library-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
@@ -57,22 +57,14 @@ Having a look around?  You can even contribute at https://github.com/chikity/ban
     <main>
       <!--Introduction here-->
       <div>
-        <!-- <img class="responsive-img" src="img/stock-photo.jpg">
-          <div class="section center-align container">
-            <h2>Welcome to Bangkok</h2>
-            <h5>
-              Welcome to Bangkok, the capital city of Thailand. This intel resource page is designed to help both local and visiting agents from abroad navigate the city.
-            </h5>
-          </div> -->
       <!-- Begin of Header Image -->
           <div id="index-banner" class="parallax-container valign-wrapper viewport">
             <div class="section valign">
-              <div class="container amber-text accent-4">
-              <!-- <div class="container white-text"> -->
+              <div class="container teal darken-4 amber-text text-accent-4 z-depth-2">
                 <br><br>
                 <h1 class="center">Welcome to Bangkok</h1>
                 <div class="row center">
-                  <h5>
+                  <h5 class="light">
                     Welcome to Bangkok, the capital city of Thailand. This intel resource page is designed to help both local and visiting agents from abroad navigate the city.
                   </h5>
                 </div>
@@ -81,45 +73,47 @@ Having a look around?  You can even contribute at https://github.com/chikity/ban
             </div>
             <div class="parallax"><img src="img/bkk_traffic.jpg"></div>
           </div>
-        <!-- End of Header Image -->
+      <!-- End of Header Image -->
         <div class="section grey darken-4 white-text z-depth-3">
           <div class="container">
             <h4>What is Ingress?</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Dummy text...
             </p>
           </div>
         </div>
         <!--Introduction end-->
+
+        <!-- First Row -->
         <div class="row container">
           <h4>Information</h4>
           <!--First Column-->
           <div class="col s12 m4">
             <div class="card">
-              <!--div class="card-image">
-                <img src="#">
+              <div class="card-image">
+                <img src="img/bkk_traffic.jpg">
                 <span class="card-title">Sim Card</span>
-              </div-->
+              </div>
               <div class="card-content">
                 <p>
                   Keep your scanner connected. Wherever you are.
                 </p>
               </div>
               <div class="card-action">
-                <a href="#">This is a link</a>
+                <a href="#">Learn More</a>
               </div>
             </div>
           </div>
           <!--Second Column-->
           <div class="col s12 m4">
             <div class="card teal">
-              <!--div class="card-image">
-                <img src="#">
-                <span class="card-title">Sim Card</span>
-              </div-->
+              <div class="card-image">
+                <img src="img/bkk_traffic.jpg">
+                <span class="card-title">Transportation</span>
+              </div>
               <div class="card-content">
                 <p>
-                  Keep your scanner connected. Wherever you are.
+                  Get from point A to point B.  Efficiently.
                 </p>
               </div>
               <div class="card-action">
@@ -145,11 +139,18 @@ Having a look around?  You can even contribute at https://github.com/chikity/ban
             </div>
           </div>
         </div>
+        <!-- Second Row -->
+        <div class="row container">
+
+        </div>
+
+
       </div>
     </main>
     <!--End of Main content-->
+
     <!--Start of Footer-->
-    <footer class="page-footer black">
+    <footer class="page-footer grey darken-4">
       <div class="container">
         <div class="row">
           <div class="col l4 s12">
@@ -162,9 +163,9 @@ Having a look around?  You can even contribute at https://github.com/chikity/ban
             </p>
           </div>
           <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
+            <h5 class="white-text">Official Links</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="http://www.ingress.com">Ingress Homepage</a></li>
                 <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
                 <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
                 <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
@@ -172,17 +173,18 @@ Having a look around?  You can even contribute at https://github.com/chikity/ban
           </div>
         </div>
       </div>
-      <div class="footer-copyright grey darken-4">
+      <div class="footer-copyright black">
         <div class="container">
           © 2016-2017 Copyright Bangkok Ingress | This site is in no way affiliated with Niantic, Inc.
         </div>
       </div>
     </footer>
     <!--End of footer-->
+
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="js/materialize.min.js"></script>
     <script>
       $( document ).ready(function() {
         // $(".button-collapse").sideNav(console.log("button is pressed"));
