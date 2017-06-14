@@ -10,4 +10,4 @@ The site will include:
 * Transportation guide
 * Others
 
-Check it out [here](http://www.bkkingress.com)!
+The site is currently under construction.  A simple WordPress site has been setup in the meantime.  Check it out [here](http://www.bkkingress.com)!
